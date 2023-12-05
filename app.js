@@ -7,7 +7,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
 let linha = document.querySelector(tag);
 linha.innerHTML = texto;
-responsiveVoice.speak(texto,'Brazilian Portuguese Female', {rate: 1.2});
+responsiveVoice.speak(texto,'Brazilian Portuguese Female', {rate: 1.0});
 }
 function mensagemInicial() {
 exibirTextoNaTela ('h1', 'Jogo do número secreto');
